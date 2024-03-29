@@ -7,9 +7,11 @@ os/new_cmd
 # IDE config
 .idea/
 .vscode/
+commit.sh
 
 # kernel build
 os/target/
+kernel.bin
 
 # user programs build
 user/riscv64/
@@ -50,3 +52,4 @@ util/qemu/2k1000/mnt
 util/qemu-2k1000/2k1000/mnt
 util/qemu/qemu.log
 util/qemu/2k1000/2kfs.img
+os/2kfs.img
