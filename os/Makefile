@@ -106,8 +106,10 @@ endif
 
 fat32:
 ifneq ($(BOARD),2k1000)
+	cd ../util/qemu/2k1000 && sh create_qemu_img.sh && cd ../../../os
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
 else
+	sh ../util/qemu/2k1000/create_qemu_img.sh
 	@sudo mkdir "$(U_FAT32_DIR)"
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
