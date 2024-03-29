@@ -106,19 +106,22 @@ endif
 
 fat32:
 ifneq ($(BOARD),2k1000)
-	./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
+	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
 else
-	./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
+	@sudo mkdir "$(U_FAT32_DIR)"
+	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-fat-img: fat32 qemu-flash-fat-img
+remake-qemu-flash-fat-img: fat32 env build qemu-flash-fat-img
 
 qemu-flash-fat-img:
 ifeq ($(BOARD), 2k1000)
 	@echo $(CURDIR)
 	@./fat $(MINITERM_START_CMD) $(LA_2K1000_PORT_FREQ) 
 else ifeq ($(BOARD), laqemu)
-	@./la_fat.exp $(QEMU_2K1000)
+	@cp ./target/loongarch64-unknown-linux-gnu/debug/os.bin ../os.bin
+	@mv ../os.bin ../kernel.bin
+	@./la_fat $(QEMU_2K1000)
 endif
 
 
@@ -165,7 +168,7 @@ endif
 new-gdb: build gdb
 gdb:
 ifeq ($(BOARD),laqemu)
-	./run_script $(QEMU_2K1000) "-S"
+	./la_fat $(QEMU_2K1000) "-S"
 else ifeq ($(BOARD), 2k1000)
 	@./la_gdbserver minicom -D $(LA_DEBUGGER_PORT_FREQ)
 endif
