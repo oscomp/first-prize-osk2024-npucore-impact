@@ -32,73 +32,73 @@ fn main() -> i32 {
         "LD_LIBRARY_PATH=/\0".as_ptr(),
         core::ptr::null(),
     ];
-    if fork() == 0 {
-        exec(path, &[path.as_ptr() as *const u8, core::ptr::null()], &environ);
-    } else {
-        loop {
-            let mut exit_code: i32 = 0;
-            let pid = wait(&mut exit_code);
-            // ECHLD is -10
-            if pid == -10 {
-                yield_();
-                continue;
-            }
-            user_lib::println!(
-                "[initproc] Released a zombie process, pid={}, exit_code={}",
-                pid,
-                exit_code,
-            );
+    // if fork() == 0 {
+    //     exec(path, &[path.as_ptr() as *const u8, core::ptr::null()], &environ);
+    // } else {
+    //     loop {
+    //         let mut exit_code: i32 = 0;
+    //         let pid = wait(&mut exit_code);
+    //         // ECHLD is -10
+    //         if pid == -10 {
+    //             yield_();
+    //             continue;
+    //         }
+    //         user_lib::println!(
+    //             "[initproc] Released a zombie process, pid={}, exit_code={}",
+    //             pid,
+    //             exit_code,
+    //         );
+    //     }
+    // }
+    let schedule_text: &str= "
+./execve\0
+./brk\0
+./chdir\0
+./clone\0
+./close\0
+./dup2\0
+./dup\0
+./exit\0
+./fork\0
+./getcwd\0
+./getdents\0
+./getpid\0
+./getppid
+./gettimeofday\0
+./mkdir_\0
+./mmap\0
+./mount\0
+./munmap\0
+./openat\0
+./open\0
+./pipe\0
+./read\0
+./times\0
+./umount\0
+./uname\0
+./unlink\0
+./wait\0
+./waitpid\0
+./write\0
+./yield\0
+";
+// TODO!: pipe
+    let mut exit_code: i32 = 0;
+    for line in schedule_text.lines(){
+        let argv = [
+            path.as_ptr(),
+            "-c\0".as_ptr(),
+            line.as_ptr(),
+            core::ptr::null(),
+        ];
+        let pid = fork();
+        if pid == 0 {
+            exec(path, &argv, &environ);
+        } else {
+            waitpid(pid as usize, &mut exit_code);
         }
     }
-//     let schedule_text: &str= "
-// execve\0
-// brk\0
-// chdir\0
-// clone\0
-// close\0
-// dup2\0
-// dup\0
-// exit\0
-// fork\0
-// getcwd\0
-// getdents\0
-// getpid\0
-// getppid
-// gettimeofday\0
-// mkdir_\0
-// mmap\0
-// mount\0
-// munmap\0
-// openat\0
-// open\0
-// pipe\0
-// read\0
-// times\0
-// umount\0
-// uname\0
-// unlink\0
-// wait\0
-// waitpid\0
-// write\0
-// yield\0
-// ";
-// // TODO!: pipe
-//     let mut exit_code: i32 = 0;
-//     for line in schedule_text.lines(){
-//         let argv = [
-//             path.as_ptr(),
-//             "-c\0".as_ptr(),
-//             line.as_ptr(),
-//             core::ptr::null(),
-//         ];
-//         let pid = fork();
-//         if pid == 0 {
-//             exec(path, &argv, &environ);
-//         } else {
-//             waitpid(pid as usize, &mut exit_code);
-//         }
-//     }
-//     user_lib::println!("[initproc] test finish");
-//     shutdown();
+    user_lib::println!("[initproc] test finish");
+    shutdown();
     0
 }
