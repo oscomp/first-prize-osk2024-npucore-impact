@@ -23,9 +23,9 @@ ifeq ($(BOARD), 2K1000)
 endif
 
 # Binutils
-OBJCOPY := loongarch64-linux-gnu-objcopy
-OBJDUMP := loongarch64-linux-gnu-objdump
-READELF := loongarch64-linux-gnu-readelf
+OBJCOPY := loongarch64-unknown-linux-gnu-objcopy
+OBJDUMP := loongarch64-unknown-linux-gnu-objdump
+READELF := loongarch64-unknown-linux-gnu-readelf
 
 ifndef LOG
 	LOG_OPTION := "log_off"
@@ -100,6 +100,7 @@ ifeq ($(ARCH), loongarch64)
 	../util/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
 	-@rm $(U_IMG)
 	@cp -f $$(pwd)/target/$(TARGET)/$(MODE)/os.ui $(U_IMG)
+	@cp -f ./target/$(TARGET)/$(MODE)/os.bin ../kernel.bin
 endif
 	-@rm src/linker.ld
 #	@$(OBJDUMP) -SC $(KERNEL_ELF) > $(KERNEL_ELF).S
@@ -121,7 +122,7 @@ ifeq ($(BOARD), 2k1000)
 	@echo $(CURDIR)
 	@./fat $(MINITERM_START_CMD) $(LA_2K1000_PORT_FREQ) 
 else ifeq ($(BOARD), laqemu)
-	@cp ./target/loongarch64-unknown-linux-gnu/debug/os.bin ../os.bin
+	@cp ./target/loongarch64-unknown-linux-gnu/$(MODE)/os.bin ../os.bin
 	@mv ../os.bin ../kernel.bin
 	@./la_fat $(QEMU_2K1000)
 endif
