@@ -68,7 +68,7 @@ all: user remake-qemu-flash-fat-img
 build: env $(KERNEL_BIN)
 env: # switch-toolchain
 	-(rustup target list | grep "$(TARGET) (installed)") || rustup target add $(TARGET)
-	if [ "$(dpkg --list|grep "ii[[:space:]]*expect")"="" ];then true;else sudo apt install expect;fi
+	if [ "$(dpkg --list|grep "ii[[:space:]]*expect")"="" ];then true;else apt-get install expect;fi
 ifneq ($(ARCH), loongarch64)
 #	-cargo install cargo-binutils --vers ~0.2
 endif
@@ -88,9 +88,9 @@ sdcard:
 		./buildfs.sh "$(SDCARD)" "qemu" $(MODE)
     else
 		@echo "Are you sure write to E:/ ? [y/N] " && read ans && [ $${ans:-N} = y ]
-		@sudo mount $(U_FAT32_DIR)/$(FAT32_IMG_NAME) $(U_FAT32_DIR)/fs
+		@mount $(U_FAT32_DIR)/$(FAT32_IMG_NAME) $(U_FAT32_DIR)/fs
 		@powershell.exe 'cd $(U_FAT32_DIR); copy -Recurse -path "$$(pwd)/fs/*" -destination "E:/" -force'
-		@sudo umount $(U_FAT32_DIR)/fs
+		@umount $(U_FAT32_DIR)/fs
     endif
 $(KERNEL_BIN): kernel
 	@$(OBJCOPY) $(KERNEL_ELF) $@ --strip-all -O binary &
