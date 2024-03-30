@@ -115,16 +115,17 @@ else
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-fat-img: fat32 
-#env build qemu-flash-fat-img
+remake-qemu-flash-fat-img: env build
+	@cp ./target/loongarch64-unknown-linux-gnu/$(MODE)/os.bin ../os.bin
+	@mv ../os.bin ../kernel.bin
+# fat32
+# qemu-flash-fat-img
 
 qemu-flash-fat-img:
 ifeq ($(BOARD), 2k1000)
 	@echo $(CURDIR)
 	@./fat $(MINITERM_START_CMD) $(LA_2K1000_PORT_FREQ) 
 else ifeq ($(BOARD), laqemu)
-	@cp ./target/loongarch64-unknown-linux-gnu/$(MODE)/os.bin ../os.bin
-	@mv ../os.bin ../kernel.bin
 	@./la_fat $(QEMU_2K1000)
 endif
 
