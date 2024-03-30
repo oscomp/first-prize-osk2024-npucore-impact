@@ -76,7 +76,8 @@ endif
 #	-rustup component add llvm-tools-preview
 
 # build all user programs
-user: c-user rust-user
+# rust-user
+user: c-user
 c-user:
 	@cd ../user && make c-user BOARD=$(BOARD) MODE=$(MODE)
 rust-user: env
@@ -115,7 +116,7 @@ else
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-fat-img: build
+remake-qemu-flash-fat-img: env build
 	@cp ./target/loongarch64-unknown-linux-gnu/$(MODE)/os.bin ../os.bin
 	@mv ../os.bin ../kernel.bin
 # fat32
