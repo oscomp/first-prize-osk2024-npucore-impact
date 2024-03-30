@@ -115,7 +115,7 @@ else
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-fat-img: env build
+remake-qemu-flash-fat-img: build
 	@cp ./target/loongarch64-unknown-linux-gnu/$(MODE)/os.bin ../os.bin
 	@mv ../os.bin ../kernel.bin
 # fat32
