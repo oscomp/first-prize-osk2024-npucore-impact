@@ -129,9 +129,8 @@ else ifeq ($(BOARD), laqemu)
 	@./la_fat $(QEMU_2K1000)
 endif
 
-	
+# -@rm src/linker.ld
 src/linker.ld: .FORCE
-	-@rm src/linker.ld
 	cpp -P $(LA_2K1000_DISABLE_EH_FRAME) -D $(LDBOARD) src/linker.in.ld $@
 
 fsimg-format:
