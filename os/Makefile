@@ -76,8 +76,7 @@ endif
 #	-rustup component add llvm-tools-preview
 
 # build all user programs
-# rust-user
-user: c-user
+user: c-user rust-user
 c-user:
 	@cd ../user && make c-user BOARD=$(BOARD) MODE=$(MODE)
 rust-user: env
