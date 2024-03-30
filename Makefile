@@ -1,7 +1,7 @@
 all:
 	mv ./os/cargo ./os/.cargo
 	mv ./user/cargo ./user/.cargo
-	cd os && make build
+	cd os && make all
 	mv ./os/.cargo ./os/cargo
 	mv ./user/.cargo ./user/cargo
 	

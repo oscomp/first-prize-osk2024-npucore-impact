@@ -105,9 +105,9 @@ endif
 	-@rm src/linker.ld
 #	@$(OBJDUMP) -SC $(KERNEL_ELF) > $(KERNEL_ELF).S
 
+# cd ../util/qemu/2k1000 && sh create_qemu_img.sh && cd ../../../os
 fat32:
 ifneq ($(BOARD),2k1000)
-	cd ../util/qemu/2k1000 && sh create_qemu_img.sh && cd ../../../os
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
 else
 	sh ../util/qemu/2k1000/create_qemu_img.sh
@@ -127,8 +127,9 @@ else ifeq ($(BOARD), laqemu)
 	@./la_fat $(QEMU_2K1000)
 endif
 
-# 	-@rm src/linker.ld
+	
 src/linker.ld: .FORCE
+	-@rm src/linker.ld
 	cpp -P $(LA_2K1000_DISABLE_EH_FRAME) -D $(LDBOARD) src/linker.in.ld $@
 
 fsimg-format:
@@ -150,9 +151,6 @@ clean:
 	-@rm ../easy-fs-fuse/rootfs-ubifs-ze.img
 	-@cd ../user && make clean
 
-# run: env run-inner 
-
-# run-inner: build do-run
 
 
 do-run:
