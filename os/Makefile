@@ -7,7 +7,7 @@ KERNEL_ELF = target/$(TARGET)/$(MODE)/os
 KERNEL_BIN = $(KERNEL_ELF).bin
 KERNEL_UIMG = $(KERNEL_ELF).ui
 
-ARCH=${shell echo ${TARGET}|cut -d- -f1 |grep -o "^[a-zA-Z]\+[[:digit:]]*"}
+# ARCH=${shell echo ${TARGET}|cut -d- -f1 |grep -o "^[a-zA-Z]\+[[:digit:]]*"}
 # BOARD
 BOARD ?= laqemu
 LDBOARD = la2k1000
@@ -97,7 +97,7 @@ $(KERNEL_BIN): kernel
 	@$(OBJDUMP) $(KERNEL_ELF) -SC > target/$(TARGET)/$(MODE)/asm_all.txt 
 	@$(READELF) -ash $(KERNEL_ELF) > target/$(TARGET)/$(MODE)/sec.txt &
 ifeq ($(ARCH), loongarch64)
-	# ../util/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
+	../util/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
 	-@rm $(U_IMG)
 	@cp -f $$(pwd)/target/$(TARGET)/$(MODE)/os.ui $(U_IMG)
 	@cp -f ./target/$(TARGET)/$(MODE)/os.bin ../kernel.bin
@@ -127,9 +127,8 @@ else ifeq ($(BOARD), laqemu)
 	@./la_fat $(QEMU_2K1000)
 endif
 
-
+# 	-@rm src/linker.ld
 src/linker.ld: .FORCE
-	-@rm src/linker.ld
 	cpp -P $(LA_2K1000_DISABLE_EH_FRAME) -D $(LDBOARD) src/linker.in.ld $@
 
 fsimg-format:
