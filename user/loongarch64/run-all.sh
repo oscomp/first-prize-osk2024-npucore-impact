@@ -10,6 +10,7 @@ dup2
 dup
 exit
 fork
+fstat
 getcwd
 getdents
 getpid
