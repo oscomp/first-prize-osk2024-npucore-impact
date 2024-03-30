@@ -111,7 +111,7 @@ ifneq ($(BOARD),2k1000)
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
 else
 	sh ../util/qemu/2k1000/create_qemu_img.sh
-	@sudo mkdir "$(U_FAT32_DIR)"
+	@mkdir "$(U_FAT32_DIR)"
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
@@ -133,7 +133,7 @@ src/linker.ld: .FORCE
 	cpp -P $(LA_2K1000_DISABLE_EH_FRAME) -D $(LDBOARD) src/linker.in.ld $@
 
 fsimg-format:
-	sudo mkfs.vfat -F 32 ${U_FAT32}
+	mkfs.vfat -F 32 ${U_FAT32}
 update-usr:user fat32
 
 kernel: src/linker.ld
