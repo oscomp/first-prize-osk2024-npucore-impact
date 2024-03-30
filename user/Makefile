@@ -27,7 +27,8 @@ c-user:
 	cd ${TESTDIR} && make clean
 	cd ${TESTDIR} && make ARCH=${ARCH}
 
-rust-user: env $(APPS)
+# env
+rust-user: $(APPS)
 ifeq ($(MODE),release)
 	@cargo build --target=$(TARGET) --release
 else
