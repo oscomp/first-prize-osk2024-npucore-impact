@@ -4,29 +4,29 @@ use crate::{arch::BLOCK_SZ, timer::TimeSpec};
 
 bitflags! {
     pub struct OpenFlags: u32 {
-        const O_RDONLY      =   0o0;
-        const O_WRONLY      =   0o1;
-        const O_RDWR        =   0o2;
+        const O_RDONLY      =   0;
+        const O_WRONLY      =   1;
+        const O_RDWR        =   1 << 1;
 
-        const O_CREAT       =   0o100;
-        const O_EXCL        =   0o200;
-        const O_NOCTTY      =   0o400;
-        const O_TRUNC       =   0o1000;
+        const O_CREAT       =   1 << 6;
+        const O_EXCL        =   1 << 7;
+        const O_NOCTTY      =   1 << 8;
+        const O_TRUNC       =   1 << 9;
 
-        const O_APPEND      =   0o2000;
-        const O_NONBLOCK    =   0o4000;
-        const O_DSYNC       =   0o10000;
-        const O_SYNC        =   0o4010000;
-        const O_RSYNC       =   0o4010000;
-        const O_DIRECTORY   =   0o200000;
-        const O_NOFOLLOW    =   0o400000;
-        const O_CLOEXEC     =   0o2000000;
-        const O_ASYNC       =   0o20000;
-        const O_DIRECT      =   0o40000;
-        const O_LARGEFILE   =   0o100000;
-        const O_NOATIME     =   0o1000000;
-        const O_PATH        =   0o10000000;
-        const O_TMPFILE     =   0o20200000;
+        const O_APPEND      =   1 << 10;
+        const O_NONBLOCK    =   1 << 11;
+        const O_DSYNC       =   1 << 12;
+        const O_SYNC        =   1 << 12 | 1 << 20;
+        const O_RSYNC       =   1 << 12 | 1 << 20;
+        const O_ASYNC       =   1 << 13;
+        const O_DIRECT      =   1 << 14;
+        const O_LARGEFILE   =   1 << 15;
+        const O_DIRECTORY   =   1 << 16;
+        const O_NOFOLLOW    =   1 << 17;
+        const O_NOATIME     =   1 << 18;
+        const O_CLOEXEC     =   1 << 19;
+        const O_PATH        =   1 << 21;
+        const O_TMPFILE     =   1 << 16 | 1 << 22;
     }
 }
 
@@ -176,6 +176,100 @@ impl Stat {
                 tv_nsec: 0,
             },
             __unused: 0,
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug)]
+#[repr(C)]
+struct StatxTimestamp {
+    tv_sec: i64,
+    tv_nsec: u32,
+}
+
+impl From<TimeSpec> for StatxTimestamp {
+    fn from(value: TimeSpec) -> Self {
+        Self {
+            tv_sec: value.tv_sec as i64,
+            tv_nsec: value.tv_nsec as u32,
+        }
+    }
+}
+
+#[derive(Clone, Copy, Debug)]
+#[repr(C)]
+pub struct Statx {
+    stx_mask: u32,
+    stx_blksize: u32,
+    stx_attributes: u64,
+    stx_nlink: u32,
+    stx_uid: u32,
+    stx_gid: u32,
+    stx_mode: u16,
+    stx_ino: u64,
+    stx_size: u64,
+    stx_blocks: u64,
+    stx_attributes_mask: u64,
+    stx_atime: StatxTimestamp,
+    stx_btime: StatxTimestamp,
+    stx_ctime: StatxTimestamp,
+    stx_mtime: StatxTimestamp,
+    stx_rdev_major: u32,
+    stx_rdev_minor: u32,
+    stx_dev_major: u32,
+    stx_dev_minor: u32,
+    stx_mnt_id: u64,
+    stx_dio_mem_align: u32,
+    stx_dio_offset_align: u32,
+}
+
+impl Statx {
+    pub fn new(
+        stx_dev_major: u32,
+        stx_dev_minor: u32,
+        stx_ino: u64,
+        stx_mode: u16,
+        stx_nlink: u32,
+        stx_rdev_major: u32,
+        stx_rdev_minor: u32,
+        stx_size: u64,
+        stx_atime_sec: i64,
+        stx_mtime_sec: i64,
+        stx_ctime_sec: i64,
+    ) -> Self {
+        const BLK_SIZE: u32 = BLOCK_SZ as u32;
+        Self {
+            stx_mask: u32::MAX,     // TODO
+            stx_attributes: 0,      // TODO
+            stx_attributes_mask: 0, // TODO
+            stx_dev_major,
+            stx_dev_minor,
+            stx_ino,
+            stx_mode,
+            stx_nlink,
+            stx_uid: 0, // TODO
+            stx_gid: 0, // TODO
+            stx_rdev_major,
+            stx_rdev_minor,
+            stx_size,
+            stx_blksize: BLK_SIZE as u32,
+            stx_blocks: (stx_size as u64 + BLK_SIZE as u64 - 1) / BLK_SIZE as u64,
+            stx_atime: StatxTimestamp {
+                tv_sec: stx_atime_sec,
+                tv_nsec: 0,
+            },
+            stx_btime: TimeSpec::new().into(), // TODO
+            stx_mtime: StatxTimestamp {
+                tv_sec: stx_mtime_sec,
+                tv_nsec: 0,
+            },
+            stx_ctime: StatxTimestamp {
+                tv_sec: stx_ctime_sec,
+                tv_nsec: 0,
+            },
+            stx_mnt_id: 0,           // TODO
+            stx_dio_mem_align: 0,    // TODO
+            stx_dio_offset_align: 0, // TODO
         }
     }
 }

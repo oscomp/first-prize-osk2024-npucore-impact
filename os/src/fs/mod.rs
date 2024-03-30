@@ -18,7 +18,7 @@ pub use self::fat32::{BlockDevice, DiskInodeType};
 
 use self::{cache::PageCache, directory_tree::DirectoryTreeNode, file_trait::File};
 use crate::{
-    config::{SYSTEM_FD_LIMIT,DEFAULT_FD_LIMIT},
+    config::{DEFAULT_FD_LIMIT, SYSTEM_FD_LIMIT},
     mm::{Frame, UserBuffer},
     syscall::errno::*,
 };
@@ -107,6 +107,9 @@ impl FileDescriptor {
     }
     pub fn get_stat(&self) -> Stat {
         self.file.get_stat()
+    }
+    pub fn get_statx(&self) -> Statx {
+        self.file.get_statx()
     }
     pub fn open(&self, path: &str, flags: OpenFlags, special_use: bool) -> Result<Self, isize> {
         if path == "" {
