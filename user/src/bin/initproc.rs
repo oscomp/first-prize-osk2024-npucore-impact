@@ -51,6 +51,7 @@ fn main() -> i32 {
     //     }
     // }
     let schedule_text: &str= "
+\0
 ./run-all.sh\0
 ";
 // TODO!: pipe
