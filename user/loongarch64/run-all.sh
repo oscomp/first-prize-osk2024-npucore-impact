@@ -1,7 +1,6 @@
 #!/bin/sh
 
 tests="
-openat
 execve
 brk
 chdir
@@ -22,6 +21,7 @@ mmap
 mount
 munmap
 open
+openat
 pipe
 read
 sleep
