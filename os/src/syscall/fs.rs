@@ -445,7 +445,7 @@ pub fn sys_pipe2(pipefd: usize, flags: u32) -> isize {
         token,
         [read_fd as u32, write_fd as u32].as_ptr(),
         pipefd as *mut u32,
-        4,
+        2,
     )
     .is_err()
     {
