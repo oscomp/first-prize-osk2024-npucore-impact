@@ -6,6 +6,7 @@ pub use mem_blk::MemBlockWrapper;
 pub use virtio_blk::VirtIOBlock;
 
 use crate::arch::{BlockDeviceImpl, BLOCK_SZ};
+
 use alloc::sync::Arc;
 use lazy_static::*;
 

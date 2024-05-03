@@ -6,6 +6,7 @@ use crate::mm::{
 use alloc::{sync::Arc, vec::Vec};
 use lazy_static::*;
 use spin::Mutex;
+// pub use crate::virtio_drivers::{VirtIOBlk, VirtIOHeader};
 use virtio_drivers::{VirtIOBlk, VirtIOHeader};
 const VIRT_IO_BLOCK_SZ: usize = 512;
 #[allow(unused)]
