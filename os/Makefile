@@ -138,7 +138,9 @@ else
 	@./buildext4.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-ext4-img: ext4 build qemu-flash-ext4-img
+remake-qemu-flash-ext4-img: 
+	@cp ./target/loongarch64-unknown-linux-gnu/debug/os.bin ../os.bin
+	@mv ../os.bin ../kernel.bin
 
 qemu-flash-ext4-img:
 ifeq ($(BOARD), 2k1000)
