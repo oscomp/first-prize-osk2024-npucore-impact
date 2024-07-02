@@ -1,20 +1,25 @@
 mod cache;
 mod dev;
 pub mod directory_tree;
-mod fat32;
+// mod fat32;
+mod ext4_file;
 pub mod file_trait;
 mod filesystem;
+// mod inode;
 mod layout;
 pub mod poll;
 #[cfg(feature = "swap")]
 pub mod swap;
+// mod vfs;
 
 pub use self::dev::{hwclock::*, null::*, pipe::*, socket::*, tty::*, zero::*};
 use core::slice::{Iter, IterMut};
 
 pub use self::layout::*;
 
-pub use self::fat32::{BlockDevice, DiskInodeType};
+pub trait BlockDevice: crate::drivers::block::BlockDevice {}
+pub type DiskInodeType = lwext4_rs::FileType;
+// pub use self::fat32::{BlockDevice, DiskInodeType};
 
 use self::{cache::PageCache, directory_tree::DirectoryTreeNode, file_trait::File};
 use crate::{
@@ -28,6 +33,7 @@ use alloc::{
     vec::Vec,
 };
 use lazy_static::*;
+use log::warn;
 use spin::Mutex;
 
 lazy_static! {
@@ -336,6 +342,7 @@ impl FdTable {
         match self.inner[fd].take() {
             Some(file_descriptor) => {
                 self.recycled.push(fd as u8);
+                // FIXME: shit here, replace this with balanced binary tree
                 self.recycled.sort_by(|a, b| b.cmp(a));
                 Ok(file_descriptor)
             }
@@ -362,11 +369,13 @@ impl FdTable {
     pub fn insert(&mut self, file_descriptor: FileDescriptor) -> Result<usize, isize> {
         let fd = match self.recycled.pop() {
             Some(fd) => {
+                warn!("[fd_table_insert] recycle: {fd}");
                 self.inner[fd as usize] = Some(file_descriptor);
                 fd as usize
             }
             None => {
                 let current = self.inner.len();
+                warn!("[fd_table_insert] new: {current}");
                 if current == self.soft_limit {
                     return Err(EMFILE);
                 } else {

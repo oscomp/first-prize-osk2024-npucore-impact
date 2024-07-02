@@ -7,16 +7,21 @@ KERNEL_ELF = target/$(TARGET)/$(MODE)/os
 KERNEL_BIN = $(KERNEL_ELF).bin
 KERNEL_UIMG = $(KERNEL_ELF).ui
 
-# ARCH=${shell echo ${TARGET}|cut -d- -f1 |grep -o "^[a-zA-Z]\+[[:digit:]]*"}
+ARCH=${shell echo ${TARGET}|cut -d- -f1 |grep -o "^[a-zA-Z]\+[[:digit:]]*"}
 # BOARD
 BOARD ?= laqemu
 LDBOARD = la2k1000
 
 SDDEV := $(shell lsblk -do NAME | grep sd | tail -1)
 SDCARD := /dev/$(SDDEV)
-
+LOG:=trace
 # Disassembly
 DISASM ?= -x
+
+
+# img, choose EXT4 or FAT32
+IMG_FS ?= EXT4
+
 
 ifeq ($(BOARD), 2K1000)
 	BOARD = 2K1000
@@ -63,24 +68,22 @@ LA_LOAD_ADDR = 0x9000000090000000
 RUST_LA_TOOLCHAIN = $(shell rustup show |grep "\(la\|loongarch\)\(64\)\?" |cut -d' ' -f1|head -n 1)
 
 
-# build: env $(KERNEL_BIN) $(FS_IMG) fat32
-all: user remake-qemu-flash-fat-img
+all: 
+ifeq ($(IMG_FS), EXT4)
+	@ make user remake-qemu-flash-ext4-img
+else ($(IMG_FS), FAT32)
+	@ make user remake-qemu-flash-fat-img
+endif
+
 build: env $(KERNEL_BIN)
 env: # switch-toolchain
 	-(rustup target list | grep "$(TARGET) (installed)") || rustup target add $(TARGET)
-	if [ "$(dpkg --list|grep "ii[[:space:]]*expect")"="" ];then true;else apt-get install expect;fi
-ifneq ($(ARCH), loongarch64)
-#	-cargo install cargo-binutils --vers ~0.2
-endif
-#	-rustup component add rust-src
-#	-rustup component add llvm-tools-preview
+	if [ "$(dpkg --list|grep "ii[[:space:]]*expect")"="" ];then true;else sudo apt install expect;fi
+
 
 # build all user programs
-user: c-user rust-user
-c-user:
-	@cd ../user && make c-user BOARD=$(BOARD) MODE=$(MODE)
-rust-user: env
-	@cd ../user && make rust-user BOARD=$(BOARD) MODE=$(MODE)
+user: env
+	@cd ../user && make build BOARD=$(BOARD) MODE=$(MODE)
 
 sdcard:
     ifeq ($(findstring WSL, $(shell uname -a)), )
@@ -88,9 +91,9 @@ sdcard:
 		./buildfs.sh "$(SDCARD)" "qemu" $(MODE)
     else
 		@echo "Are you sure write to E:/ ? [y/N] " && read ans && [ $${ans:-N} = y ]
-		@mount $(U_FAT32_DIR)/$(FAT32_IMG_NAME) $(U_FAT32_DIR)/fs
+		@sudo mount $(U_FAT32_DIR)/$(FAT32_IMG_NAME) $(U_FAT32_DIR)/fs
 		@powershell.exe 'cd $(U_FAT32_DIR); copy -Recurse -path "$$(pwd)/fs/*" -destination "E:/" -force'
-		@umount $(U_FAT32_DIR)/fs
+		@sudo umount $(U_FAT32_DIR)/fs
     endif
 $(KERNEL_BIN): kernel
 	@$(OBJCOPY) $(KERNEL_ELF) $@ --strip-all -O binary &
@@ -100,43 +103,55 @@ ifeq ($(ARCH), loongarch64)
 	../util/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
 	-@rm $(U_IMG)
 	@cp -f $$(pwd)/target/$(TARGET)/$(MODE)/os.ui $(U_IMG)
-	@cp -f ./target/$(TARGET)/$(MODE)/os.bin ../kernel.bin
 endif
 	-@rm src/linker.ld
-#	@$(OBJDUMP) -SC $(KERNEL_ELF) > $(KERNEL_ELF).S
 
-# cd ../util/qemu/2k1000 && sh create_qemu_img.sh && cd ../../../os
+
 fat32:
 ifneq ($(BOARD),2k1000)
+	cd ../util/qemu/2k1000 && sh create_qemu_img.sh && cd ../../../os
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
 else
-	sh ../util/qemu/2k1000/create_qemu_img.sh
-	@mkdir "$(U_FAT32_DIR)"
+	if [ ! -d "$(U_FAT32_DIR)" ]; then @sudo mkdir "$(U_FAT32_DIR)"; fi
 	@./buildfs.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-fat-img: build
-	@cp ./target/loongarch64-unknown-linux-gnu/$(MODE)/os.bin ../os.bin
-	@mv ../os.bin ../kernel.bin
-# fat32
-# qemu-flash-fat-img
-# env
+remake-qemu-flash-fat-img: fat32 build qemu-flash-fat-img
 
 qemu-flash-fat-img:
 ifeq ($(BOARD), 2k1000)
 	@echo $(CURDIR)
-	@./fat $(MINITERM_START_CMD) $(LA_2K1000_PORT_FREQ) 
+	@./la_fat $(MINITERM_START_CMD) $(LA_2K1000_PORT_FREQ) 
 else ifeq ($(BOARD), laqemu)
+	@cp ./target/loongarch64-unknown-linux-gnu/debug/os.bin ../os.bin
+	@mv ../os.bin ../kernel.bin
 	@./la_fat $(QEMU_2K1000)
 endif
 
-# -@rm src/linker.ld
+
+ext4:
+ifneq ($(BOARD),2k1000)
+	cd ../util/qemu/2k1000 && sh create_qemu_img.sh && cd ../../../os
+	@./buildext4.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" "laqemu" $(MODE)
+else
+	if [ ! -d "$(U_FAT32_DIR)" ]; then @sudo mkdir "$(U_FAT32_DIR)"; fi
+	@./buildext4.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
+endif
+
+remake-qemu-flash-ext4-img: ext4 build qemu-flash-ext4-img
+
+qemu-flash-ext4-img:
+ifeq ($(BOARD), 2k1000)
+	@echo $(CURDIR)
+	@./la_fat $(MINITERM_START_CMD) $(LA_2K1000_PORT_FREQ) 
+else ifeq ($(BOARD), laqemu)
+	@cp ./target/loongarch64-unknown-linux-gnu/debug/os.bin ../os.bin
+	@mv ../os.bin ../kernel.bin
+endif
+
 src/linker.ld: .FORCE
 	cpp -P $(LA_2K1000_DISABLE_EH_FRAME) -D $(LDBOARD) src/linker.in.ld $@
 
-fsimg-format:
-	mkfs.vfat -F 32 ${U_FAT32}
-update-usr:user fat32
 
 kernel: src/linker.ld
 	@echo Platform: $(BOARD)
@@ -148,7 +163,6 @@ kernel: src/linker.ld
 
 clean:
 	@cargo clean
-	-@rm src/linker.ld
 	-@rm ../easy-fs-fuse/uImage
 	-@rm ../easy-fs-fuse/rootfs-ubifs-ze.img
 	-@cd ../user && make clean
@@ -175,11 +189,6 @@ else ifeq ($(BOARD), 2k1000)
 	@./la_gdbserver minicom -D $(LA_DEBUGGER_PORT_FREQ)
 endif
 
-
-
-ch-default:
-	@DEFAULT_STR=$$(grep -o "default[[:space:]]*=[[:space:]]\[[[:space:]]*\"board_.\+\"[[:space:]]*\]" Cargo.toml);
-	@if [ $$(echo "$$DEFAULT_STR"|grep "qemu") ]; then echo "found"; else echo "not found"; fi;
 
 
 

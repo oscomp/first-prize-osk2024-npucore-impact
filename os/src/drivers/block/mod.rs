@@ -1,12 +1,10 @@
 mod block_dev;
-mod mem_blk;
-mod virtio_blk;
+pub mod sata_blk;
+
 pub use block_dev::BlockDevice;
-pub use mem_blk::MemBlockWrapper;
-pub use virtio_blk::VirtIOBlock;
+use lwext4_rs::BlockDeviceInterface;
 
 use crate::arch::{BlockDeviceImpl, BLOCK_SZ};
-
 use alloc::sync::Arc;
 use lazy_static::*;
 

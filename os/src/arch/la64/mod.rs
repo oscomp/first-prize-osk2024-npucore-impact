@@ -1,7 +1,3 @@
-#[cfg(feature = "board_2k1000")]
-#[path = "board/2k1000.rs"]
-pub mod board;
-#[cfg(feature = "board_laqemu")]
 #[path = "board/2k1000.rs"]
 pub mod board;
 pub mod config;
@@ -33,7 +29,7 @@ pub use kern_stack::{trap_cx_bottom_from_tid, ustack_bottom_from_tid, KernelStac
 pub use register::*;
 mod kern_stack;
 mod la_libc_import;
-mod register;
+pub mod register;
 mod tlb;
 extern "C" {
     pub fn srfill();

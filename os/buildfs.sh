@@ -24,7 +24,7 @@ echo
 echo Current arch: ${ARCH}
 echo
 "$SUDO" touch ${U_FAT32}
-"$SUDO" dd if=/dev/zero of=${U_FAT32} bs=1M count=20
+"$SUDO" dd if=/dev/zero of=${U_FAT32} bs=1M count=50
 echo Making fat32 image with BLK_SZ=${BLK_SZ}
 "$SUDO" mkfs.vfat -F 32 ${U_FAT32} -S ${BLK_SZ}
 "$SUDO" fdisk -l ${U_FAT32}
@@ -67,6 +67,7 @@ try_copy(){
 
 for programname in $(ls ../user/src/bin)
 do
+    echo ${programname%.rs} copied.
     "$SUDO" cp -r ../user/target/${TARGET}/${MODE}/${programname%.rs} ${U_FAT32_DIR}/fs/${programname%.rs}
 done
 
@@ -78,8 +79,7 @@ fi
 # try_copy ../user/user_C_program/user/build/${ARCH}  ${U_FAT32_DIR}/fs/syscall
 try_copy ../user/busybox_lua_testsuites/${ARCH} ${U_FAT32_DIR}/fs/
 try_copy ../user/${ARCH} ${U_FAT32_DIR}/fs/
-# try_copy ../user/disk/${ARCH} ${U_FAT32_DIR}/fs/
+try_copy ../user/disk/${ARCH} ${U_FAT32_DIR}/fs/
 
 "$SUDO" umount ${U_FAT32_DIR}/fs
 echo "DONE"
-return 0

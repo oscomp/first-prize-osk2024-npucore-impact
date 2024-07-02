@@ -4,7 +4,7 @@ use crate::fs::OpenFlags;
 use crate::mm::{
     copy_from_user, copy_to_user, copy_to_user_string, get_from_user, translated_byte_buffer,
     translated_ref, translated_refmut, translated_str, try_get_from_user, MapFlags, MapPermission,
-    UserBuffer,
+    UserBuffer, KERNEL_SPACE,
 };
 use crate::show_frame_consumption;
 use crate::syscall::errno::*;
@@ -380,7 +380,8 @@ pub fn sys_sysinfo(info: *mut Sysinfo) -> isize {
     }
 }
 
-pub fn sys_sbrk(increment: isize) -> isize {
+#[no_mangle]
+pub extern "C" fn sys_sbrk(increment: isize) -> isize {
     let task = current_task().unwrap();
     let mut inner = task.acquire_inner_lock();
     let mut memory_set = task.vm.lock();
@@ -388,7 +389,8 @@ pub fn sys_sbrk(increment: isize) -> isize {
     inner.heap_pt as isize
 }
 
-pub fn sys_brk(brk_addr: usize) -> isize {
+#[no_mangle]
+pub extern "C" fn sys_brk(brk_addr: usize) -> isize {
     let task = current_task().unwrap();
     let mut inner = task.acquire_inner_lock();
     let mut memory_set = task.vm.lock();

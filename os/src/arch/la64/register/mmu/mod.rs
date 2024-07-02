@@ -1,22 +1,18 @@
 #![allow(unused)]
 
 use core::fmt::write;
-pub mod asid;
 pub mod dmw;
 pub mod pgd;
 pub mod pwch;
 pub mod pwcl;
 pub mod stlbps;
-pub mod tlbehi;
 pub mod tlbelo;
-pub mod tlbidx;
 pub mod tlbrbadv;
 pub mod tlbrehi;
 pub mod tlbrelo;
 pub mod tlbrentry;
 pub mod tlbrera;
 pub mod tlbrprmd;
-pub mod tlbrsave;
 
 #[derive(Debug, Eq, PartialEq, num_enum::TryFromPrimitive, num_enum::IntoPrimitive)]
 #[repr(usize)]
