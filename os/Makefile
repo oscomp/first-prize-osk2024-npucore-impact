@@ -99,12 +99,7 @@ $(KERNEL_BIN): kernel
 	@$(OBJCOPY) $(KERNEL_ELF) $@ --strip-all -O binary &
 	@$(OBJDUMP) $(KERNEL_ELF) -SC > target/$(TARGET)/$(MODE)/asm_all.txt 
 	@$(READELF) -ash $(KERNEL_ELF) > target/$(TARGET)/$(MODE)/sec.txt &
-ifeq ($(ARCH), loongarch64)
-	../user/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
-	-@rm $(U_IMG)
-	@cp -f $$(pwd)/target/$(TARGET)/$(MODE)/os.ui $(U_IMG)
-endif
-	-@rm src/linker.ld
+
 
 
 fat32:
