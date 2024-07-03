@@ -26,7 +26,6 @@ embedded-io = "0.6.1"
 pci = { path = "../dependency/pci" }
 isomorphic_drivers = { path = "../dependency/isomorphic" }
 lwext4-rs = { path = "../dependency/ext4/lwext4-rs" }
-ext4_rs = { path = "../dependency/ext4-rs" }
 
 [features]
 zero_init = []

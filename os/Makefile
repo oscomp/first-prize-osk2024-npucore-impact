@@ -100,7 +100,7 @@ $(KERNEL_BIN): kernel
 	@$(OBJDUMP) $(KERNEL_ELF) -SC > target/$(TARGET)/$(MODE)/asm_all.txt 
 	@$(READELF) -ash $(KERNEL_ELF) > target/$(TARGET)/$(MODE)/sec.txt &
 ifeq ($(ARCH), loongarch64)
-	../util/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
+	../user/mkimage -A loongarch -O linux -T kernel -C none -a $(LA_LOAD_ADDR) -e $(LA_ENTRY_POINT) -n NPUcore-IMPACT!!! -d $(KERNEL_BIN) $(KERNEL_UIMG)
 	-@rm $(U_IMG)
 	@cp -f $$(pwd)/target/$(TARGET)/$(MODE)/os.ui $(U_IMG)
 endif
@@ -138,7 +138,7 @@ else
 	@./buildext4.sh "$(U_FAT32_DIR)/$(FAT32_IMG_NAME)" 2k1000 $(MODE)
 endif
 
-remake-qemu-flash-ext4-img: 
+remake-qemu-flash-ext4-img: build
 	@cp ./target/loongarch64-unknown-linux-gnu/debug/os.bin ../os.bin
 	@mv ../os.bin ../kernel.bin
 
