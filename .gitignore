@@ -11,7 +11,7 @@ commit.sh
 
 # kernel build
 os/target/
-kernel.bin
+# kernel.bin
 
 # user programs build
 user/riscv64/
