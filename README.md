@@ -9,7 +9,8 @@
 队员：Yifei Zhang (yurzhang.oi@gmail.com), Hanchen Zhang (jackwill17611136817@outlook.com)
 
 ## News
-- **2024.06.01** 提交完整初赛报告 **[NPUcore-IMAPCT初赛文档](./Doc/NPUcore-IMAPCT初赛文档.pdf)**。
+- **2024.07.31** 提交完整初赛报告 **[NPUcore-IMAPCT决赛文档](./docs/NPUcore-IMAPCT决赛文档.pdf)**。
+- **2024.06.01** 提交完整初赛报告 **[NPUcore-IMAPCT初赛文档](./docs/NPUcore-IMAPCT初赛文档.pdf)**。
 - **2024.05.12** FAT32文件系统解耦合。
 - **2024.03.31** 初赛测例满分。
 - **2024.03.20** 支持龙芯赛道的NPUcore适配成功。
@@ -403,8 +404,6 @@ I am child process: 5. iteration 2.
 ## 相关问题汇总
 
 
-#### [2K1000上板流程](/Doc/2K1000上板流程.md)
+#### [2K1000上板流程](/docs/2K1000上板流程.md)
 #### [支持LA2k1000Qemu的操作系统适配（初赛）](./Doc/支持LA2k1000Qemu的操作系统适配（初赛）.md)
-#### [添加ext4文件系统步骤](./Doc/添加ext4文件系统步骤.md)
-
-#### [LA初赛测例修复](./Doc/LA初赛测例修复.md)
+#### [LA初赛测例修复](./docs/LA初赛测例修复.md)

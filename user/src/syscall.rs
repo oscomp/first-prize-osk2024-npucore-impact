@@ -141,3 +141,4 @@ pub fn sys_waitpid(pid: isize, exit_code: *mut i32) -> isize {
 pub fn sys_shutdown() -> isize {
     syscall(SYSCALL_SHUTDOWN, [0, 0, 0])
 }
+
