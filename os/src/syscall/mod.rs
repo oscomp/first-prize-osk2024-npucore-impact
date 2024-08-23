@@ -387,3094 +387,3093 @@ pub fn syscall(syscall_id: usize, args: [usize; 6]) -> isize {
 }
 
 
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
 
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
-static LONG_STRING: &str = "This is a very long very long very long string example";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
