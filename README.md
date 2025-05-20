@@ -1,5 +1,7 @@
 # NPUcore-IMPACT!!!
 
+https://deepwiki.com/badge-maker?url=https%3A%2F%2Fdeepwiki.com%2Foscomp%2Ffirst-prize-osk2024-npucore-impact
+
 学校：西北工业大学
 
 队长：Yixu Feng (yixu-nwpu@mail.nwpu.edu.cn)
