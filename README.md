@@ -1,6 +1,6 @@
 # NPUcore-IMPACT!!!
 
-https://deepwiki.com/badge-maker?url=https%3A%2F%2Fdeepwiki.com%2Foscomp%2Ffirst-prize-osk2024-npucore-impact
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/oscomp/first-prize-osk2024-npucore-impact)
 
 学校：西北工业大学
 
